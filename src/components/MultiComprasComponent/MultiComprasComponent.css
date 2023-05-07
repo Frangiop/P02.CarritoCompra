@@ -1,0 +1,82 @@
+.boton {
+  display: block;
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.boton:hover {
+  background-color: #0062cc;
+}
+
+.boton:active {
+  background-color: #0052ad;
+}
+
+.boton:focus {
+  outline: none;
+}
+
+.boton.primary {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.boton.primary:hover {
+  background-color: #303f9f;
+}
+
+.boton.large {
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  width: 12rem;
+}
+
+.compra-eliminar-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+}
+
+.compra-eliminar-btn:hover {
+  background-color: #ffc107;
+}
+
+
+
+.compra-eliminar-btn::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.compra-eliminar-btn:hover::after {
+  opacity: 1;
+}

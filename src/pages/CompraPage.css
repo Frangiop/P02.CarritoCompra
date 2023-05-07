@@ -1,0 +1,33 @@
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+  
+  
+  .boton {
+    display: block;
+    width: 10rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #007bff, #0062cc);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .boton:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.3);
+  }
+  
+  

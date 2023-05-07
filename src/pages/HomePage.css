@@ -1,0 +1,32 @@
+.boton-compras {
+    display: inline-block;
+    width: 12rem;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .boton-compras:hover {
+    background-color: #fcd116;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .boton-compras:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .boton-compras {
+      width: 100%;
+    }
+  }
+  
